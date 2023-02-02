@@ -13,3 +13,5 @@ def about(request):
 
 def info(request):
     return render(request,"firstapp/info.html")
+def shoki(request):
+    return render(request,"shoki.html")
